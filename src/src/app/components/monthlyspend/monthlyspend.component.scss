@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+/*
+font-family: 'Roboto', sans-serif;
+*/
+.newspent-form{
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-width: 80%;
+  padding-top: 20px;
+  margin-left: 4%;
+  margin-right: 4%;
+  color: darkslategray;
+}
+.input{
+  padding: 4px;
+  border-radius: 8px;
+  min-width: 200px;
+  max-width: 300px;
+  margin: 5px;
+}
+input:focus{
+  border-style: solid;
+  border-width: 4px;
+  border-color: aquamarine; 
+}
+.btn{
+  font-family: 'Roboto', sans-serif;
+  width: 120px;
+  font-size: 16px;
+  border-radius: 8px;
+  margin-top: 5px;
+  margin-left: 5px;
+  
+}
