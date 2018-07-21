@@ -2,7 +2,7 @@
 /*
 font-family: 'Roboto', sans-serif;
 */
-.newspent-form{
+.newmade-form{
   font-family: 'Roboto', sans-serif;
   display: flex;
   flex-direction: column;
@@ -18,6 +18,7 @@ font-family: 'Roboto', sans-serif;
   min-width: 200px;
   max-width: 300px;
   margin: 5px;
+
 }
 input:focus{
   border-style: solid;
@@ -28,7 +29,6 @@ input:focus{
   font-family: 'Roboto', sans-serif;
   width: 120px;
   font-size: 16px;
-  height:35px;
   border-radius: 18px;
   margin-top: 5px;
   margin-left: 5px;
