@@ -1,0 +1,15 @@
+<div>
+   <form class="newspent-form" (submit)="onAddExpense(expenseForm)" #expenseForm="ngForm">
+     <h6>You are adding a new monthly expense</h6>
+        <select class="input" name="expenseOrigin" type="text" ngModel required>
+            <option value="" selected disabled hidden>What did you NOT buy?</option>
+            <option value="Coffee">Coffee</option>
+            <option value="Junk Food">Junk Food</option>
+            <option value="App">App</option>
+            <option value="Cigarettes">Cigarettes</option>
+        </select>
+        <input class="input" name="expenseAmount" placeholder="Amount?" type="number" ngModel required>
+        <input class="input" type="date" name="expenseDate" placeholder="When?" ngModel required>
+        <button class="btn btn-success" type="submit">You Saved!</button>
+  </form>
+</div>
