@@ -2,22 +2,33 @@
 /*
 font-family: 'Roboto', sans-serif;
 */
-.newspent-form{
+.main{
   font-family: 'Roboto', sans-serif;
+  margin: 20px;
+  border-radius: 8px;
+  width: 600px;
+  height: 600px;
+  color: lightskyblue;
+}
+.sub-2{
+  font-size: 18px;
+}
+.sub-3{
+  font-size: 14px;
+}
+.signup-form{
   display: flex;
   flex-direction: column;
   min-width: 80%;
-  padding-top: 20px;
+  padding-top: 40px;
   margin-left: 4%;
   margin-right: 4%;
-  color: darkslategray;
 }
-.input{
+.userForm-input{
   padding: 4px;
   border-radius: 8px;
   min-width: 200px;
   max-width: 300px;
-  margin: 5px;
 }
 input:focus{
   border-style: solid;
@@ -25,11 +36,14 @@ input:focus{
   border-color: aquamarine; 
 }
 .btn{
+  width: 80px;
+  border-radius: 8px;
+}
+.btn-back{
   font-family: 'Roboto', sans-serif;
-  width: 120px;
+  width: 140px;
   font-size: 16px;
   border-radius: 8px;
-  margin-top: 5px;
-  margin-left: 5px;
-  
+  margin-top: 15px;
+  margin-left: 5px; 
 }
