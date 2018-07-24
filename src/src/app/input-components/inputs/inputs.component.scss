@@ -1,0 +1,36 @@
+.debt-surround{
+  display: flex;
+  flex-direction: row;
+  width: 600px;
+  height: 280px;
+  border-width: 2px;
+  border-radius: 18px;
+  border-style: solid;
+  margin-left:8px;
+}
+.surround{
+  width: 450px;
+  height: 240px;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 18px;
+  margin: 15px;
+}
+.btn{
+  width:140px;
+  border-radius: 18px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.btn:focus{
+  box-shadow: 0 0 8px rgba(244, 252, 252, 0.3), 0 0 8px rgba(244, 252, 252, 0.3);
+}
+.btn-stack{
+  display: flex;
+  flex-direction: column;
+  margin-top: 12px;
+}
+.btn-wrapper{
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 10px;
+}

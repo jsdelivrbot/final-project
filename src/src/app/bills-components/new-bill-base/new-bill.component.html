@@ -1,0 +1,15 @@
+<div *ngIf="expenseList.length > 0">
+    <div *ngFor="let expense of expenseList" class="bill-frame">
+      <div class="tag">
+        <div class="date">
+          <h3>Due: <strong> {{ expense.expenseDate }}</strong></h3>
+        </div>
+        <div class="category">
+          <h6>Category: <strong> {{ expense.expenseOrigin }}</strong></h6>
+        </div>
+      </div>
+      <div class="value">
+        <h1><strong>${{ expense.expenseAmount }}</strong></h1>
+      </div>
+    </div>
+</div>
